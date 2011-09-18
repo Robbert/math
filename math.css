@@ -1,0 +1,43 @@
+.math-inline,
+.math-block {
+    font-family: "STIXGeneral", serif;
+    position: relative;
+    white-space: nowrap;
+    line-height: 1.3em;
+    text-indent: 0;
+    page-break-inside: avoid;
+    font-size: 102%;
+}
+.math-block {
+    /* center */
+    margin: 0 auto;
+    width: auto;
+}
+.math-var {
+}
+.math-sqrt {
+    font-style: italic;
+}
+.mfrac {display:inline-table;
+    white-space:nowrap;
+    border-collapse:collapse;
+    text-align:center;
+    vertical-align:0.9em;
+    margin:0 2px;
+    font-size:1em;
+    text-align: center;
+}
+.mfrac > * {
+    font-size:0.9em;
+}
+.mfrac > *:first-child {
+    display: inline-table;
+    vertical-align: text-bottom;
+}
+.mfrac > * + * {
+    border-top: solid thin;
+    display: table-row;
+}
+.math-error {
+    color: red;
+}
